@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "predeploy":"yarn build",
-    "deploy": "pm2 start yarn --interpreter bash --name eogus-API-server -- start"
+    "deploy": "pm2 start yarn --interpreter bash --name eogus-API-server -- start",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
